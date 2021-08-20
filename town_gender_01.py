@@ -15,6 +15,6 @@ print(header)
 print("남 데이터 시작 인덱스: ", header.index('2021년07월_남_0세'))
 print("여 데이터 시작 인덱스: ", header.index('2021년07월_여_0세'))
 
-# 남, 여 데이터 확인
+# 남, 여 데이터 확인.
 print(header[3:104])
 print(header[106:])
