@@ -24,7 +24,7 @@ result_f = []
 result_m = []
 # 우리 동네 자료 추출
 for one in data:
-    if '안양' in one[0]:
+    if '범계' in one[0]:
         result_m = one[3:104]
         result_f = one[106:]
         break
