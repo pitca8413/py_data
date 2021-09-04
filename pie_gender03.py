@@ -24,6 +24,6 @@ for one in data:
 plt.rc('font', family='AppleGothic')
 plt.title('범계동 지역의 남여 성별 인구')
 label = [f'남\n{m_cnt}명', f'여\n{f_cnt}명']
-plt.pie([m_cnt, f_cnt], labels=label, autopct='%.1f%%')
+plt.pie([m_cnt, f_cnt], labels=label, autopct='%.1f%%', startangle=90)
 plt.legend()
 plt.show()
